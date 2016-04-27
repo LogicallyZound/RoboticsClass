@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="cse_190_assi_1" type="map_server.py" name="map_server" output="screen"/> 
+    <node pkg="cse_190_assi_1" type="robot.py" name="robot" output="screen" required="true"/> 
+    <node pkg="cse_190_assi_1" type="texture_sensor.py" name="texture_sensor" output="screen"/> 
+    <node pkg="cse_190_assi_1" type="temperature_sensor.py" name="temperature_sensor" output="screen"/> 
+    <node pkg="cse_190_assi_1" type="data_transcriber.py" name="data_transcriber" output="screen" cwd="node"/> 
+</launch>

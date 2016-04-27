@@ -1,0 +1,35 @@
+{
+    "pipe_map": [
+        ["C","-","H","H","-"],
+        ["C","-","H","-","-"],
+        ["C","-","H","-","-"],
+        ["C","C","H","H","H"]
+    ],
+    "texture_map": [
+        ["S","S","S","S","R"],
+        ["R","R","S","R","R"],
+        ["R","S","S","S","S"],
+        ["S","R","R","S","R"]
+    ],
+    "move_list": [
+        [0,0],
+        [0,1],
+        [1,0],
+        [1,0],
+        [0,1],
+        [0,1]
+    ],
+    "possible_moves": [
+        [0,0],
+        [1,0],
+        [-1,0],
+        [0,1],
+        [0,-1]
+    ],
+    "starting_pos": [3,3],
+    "temp_noise_std_dev": 10,
+    "prob_tex_correct": 0.99,
+    "uncertain_motion": true,
+    "prob_move_correct": 0.75,
+    "seed": 0
+}
